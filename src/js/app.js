@@ -43,7 +43,12 @@
 document.querySelector('#ex01').textContent = 'done!'
 
 //EX02
+//BG
 document.querySelector('.ex02').style.backgroundColor = 'red'
+//Font - change style
+//document.querySelector('.ex02').style.color = 'red'
+//Font - add class .red
+//document.querySelector('.ex02').className += ', red'
 
 //EX03
 document.querySelector('blockquote').textContent = 'Everything is not awesome'
