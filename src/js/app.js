@@ -37,7 +37,7 @@
 
  console.log('js loaded!')
 
- console.log('Test1')
+ window.addEventListener("DOMContentLoaded", () => {})
 
  //EX01
 document.querySelector('#ex01').textContent = 'done!'
